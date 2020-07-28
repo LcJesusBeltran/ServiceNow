@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt onLoad Example</name>
+        <order/>
+        <script><![CDATA[//Example for onLoad
+function onLoad(){
+	var example = "Hello World";
+	alert(example);
+}
+/*
+//Example for onSubmit
+function onSubmit(){
+	alert("You are Submitting a record");
+}
+
+//Example for onChange
+function onChange(control, oldValue, newValue, isLoading, isTemplate){
+	if(isLoading || newValue == ''){
+		return;
+	}
+	alert("You have a chance the short Description from " + oldValue + "to" + newValue + ".");
+}*/
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-28 02:01:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97aec4d9db5610108c8b112039961974</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_97aec4d9db5610108c8b112039961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-28 02:26:03</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>User View</view>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>80e081cbdbb29b008264f70fbf961944</instance_id>
+        <instance_name>dev62504</instance_name>
+        <name>sys_script_client_97aec4d9db5610108c8b112039961974</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt onLoad Example&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[//Example for onLoad
+function onLoad(){
+	var example = "Hello World";
+	alert(example);
+}
+/*
+//Example for onSubmit
+function onSubmit(){
+	alert("You are Submitting a record");
+}
+
+//Example for onChange
+function onChange(control, oldValue, newValue, isLoading, isTemplate){
+	if(isLoading || newValue == ''){
+		return;
+	}
+	alert("You have a chance the short Description from " + oldValue + "to" + newValue + ".");
+}*/
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-28 02:01:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;97aec4d9db5610108c8b112039961974&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt onLoad Example&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_97aec4d9db5610108c8b112039961974&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-28 02:26:03&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view&gt;User View&lt;/view&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-188644913</payload_hash>
+        <record_name>NeedIt onLoad Example</record_name>
+        <reverted_from/>
+        <source>b3a53aa3dbc610108c8b112039961962</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-28 02:26:03</sys_created_on>
+        <sys_id>0d875411db9610108c8b112039961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173933dbafb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-28 02:26:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4587541169961010aeb684e748fc9734</update_guid>
+        <update_guid_history>4587541169961010aeb684e748fc9734:-188644913,dd8694118a961010af62cd832dcfef1e:1708228050,42a55011309610105e7b71ab31fbd6ce:1164626006,cd555cddb6561010c2faebde04c86c85:-1258109555,2e0590dd4c5610101d905f300dba1f13:-430062317,a28490dd4e561010fdffad9c9beb361b:993096916,756450dda05610108e4b5a1e6a056831:1164626006,d13410ddb856101013dabbd38ee0cfb0:-1913069713,d983549d6d5610107b2bc83640f9ddc4:1164626006,a342d8d9e15610103b6c01befc4254d6:1138954189,10e1541d4656101065e0e2a980977d6a:339392451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-28 02:27:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7749e413122048349cfd6d97dab83304</sys_id>
+        <sys_metadata>97aec4d9db5610108c8b112039961974</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">204569e0db1210108c8b1120399619ba</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_97aec4d9db5610108c8b112039961974</sys_update_name>
+        <sys_update_version display_value="sys_script_client_97aec4d9db5610108c8b112039961974">0d875411db9610108c8b112039961934</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-28 02:27:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
